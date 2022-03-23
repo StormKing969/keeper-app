@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background-color: #eee;
+}
+
+@import "./components/header";
+@import "./components/note";
+@import "./components/footer";
